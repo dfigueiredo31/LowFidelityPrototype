@@ -10,6 +10,8 @@ namespace LowFidelityPrototype.Controllers
     {
         public ActionResult Index()
         {
+
+
             return View();
         }
 
