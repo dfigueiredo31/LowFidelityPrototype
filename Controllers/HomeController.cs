@@ -38,8 +38,8 @@ namespace LowFidelityPrototype.Controllers
             Pessoa quatro = new Pessoa
             {
                 ID = 4,
-                PrimeiroNome = "Carlos",
-                UltimoNome = "Costa",
+                PrimeiroNome = "Telma",
+                UltimoNome = "Azevedo",
                 Pontuacao = 506
             };
 
