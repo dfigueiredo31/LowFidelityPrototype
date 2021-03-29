@@ -19,7 +19,7 @@
 <table class="table mt-5">
     <thead>
         <tr>
-            <th scope="col">#</th>
+            <th scope="col"></th>
             <th scope="col">Nome</th>
             <th scope="col">Apelido</th>
             <th scope="col">Pontuação</th>
@@ -29,7 +29,7 @@
         @foreach (Pessoa p in Model)
         {
             <tr>
-                <th scope="row">@p.ID</th>
+                <th class="text-center" scope="row"><i class="far fa-fw fa-2x fa-user-circle"></i></th>
                 <td>@p.PrimeiroNome</td>
                 <td>@p.UltimoNome</td>
                 <td>@p.Pontuacao</td>
